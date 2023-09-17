@@ -31,7 +31,7 @@ function Home() {
             <div className='flex flex-col justify-center gap-y-1 max-w-full w-full items-end text-right'>
               <h1 className='font-bold tracking-wider uppercase text-xl text-white font-gemunu'>Batuhan Keskinsoy</h1>
               <span className='tracking-widest text-lg text-gray-400 line-clamp-1 font-gemunu'>Frontend Developer</span>
-              <sm className='tracking-widest line-clamp-1 font-gemunu text-yellow-300'>Bağlantılarım</sm>
+              <sm className='tracking-widest line-clamp-1 font-gemunu font-extrabold text-yellow-300'>Bağlantılarım</sm>
             </div>
           </div>
           <hr className='opacity-10' />
