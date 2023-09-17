@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer className="bg-gray-900 text-white">
             <div className="container mx-auto py-3 px-4 lg:px-0">
-                <div className="w-full flex justify-between text-gray-400 text-md lg:flex-row flex-col text-center font-gemunu tracking-wide">
+                <div className="w-full flex justify-between text-gray-400 text-md lg:flex-row flex-col text-center font-gemunu tracking-wide gap-y-2">
                     <div>
                         Copyright <span className='font-system'>©</span>
                         <span className='text-yellow-300 ml-1 transition-all'>
