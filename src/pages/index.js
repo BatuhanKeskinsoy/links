@@ -28,10 +28,10 @@ function Home() {
               height={96}
               className='rounded-full w-24 h-24 min-w-[96px] min-h-[96px] object-cover object-top shadow-lg shadow-gray-700'
             />
-            <div className='flex flex-col justify-center gap-y-1 max-w-full w-full items-end text-right'>
+            <div className='flex flex-col justify-center gap-y-0.5 max-w-full w-full items-end text-right'>
               <h1 className='font-bold tracking-wide uppercase text-2xl text-white font-gemunu'>Batuhan Keskinsoy</h1>
-              <span className='tracking-widest text-lg text-gray-400 line-clamp-1 font-gemunu'>Frontend Developer</span>
-              <sm className='tracking-widest line-clamp-1 font-gemunu text-yellow-300'>Bağlantılarım</sm>
+              <span className='tracking-widest text-xl text-gray-400 line-clamp-1 font-gemunu'>Frontend Developer</span>
+              <span className='tracking-widest text-lg line-clamp-1 font-gemunu text-yellow-300'>Bağlantılarım</span>
             </div>
           </div>
           <hr className='opacity-10' />
