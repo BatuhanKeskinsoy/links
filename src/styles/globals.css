@@ -9,13 +9,13 @@
 
   @font-face {
     font-family: 'Gemunu Libre';
-    src: url('../../public/fonts/GemunuLibre/GemunuLibre-Bold.ttf');
-    src: url('../../public/fonts/GemunuLibre/GemunuLibre-ExtraBold.ttf');
-    src: url('../../public/fonts/GemunuLibre/GemunuLibre-ExtraLight.ttf');
-    src: url('../../public/fonts/GemunuLibre/GemunuLibre-Light.ttf');
-    src: url('../../public/fonts/GemunuLibre/GemunuLibre-Medium.ttf');
-    src: url('../../public/fonts/GemunuLibre/GemunuLibre-Regular.ttf');
-    src: url('../../public/fonts/GemunuLibre/GemunuLibre-Semibold.ttf');
+    src: url('/fonts/GemunuLibre/GemunuLibre-Bold.ttf');
+    src: url('/fonts/GemunuLibre/GemunuLibre-ExtraBold.ttf');
+    src: url('/fonts/GemunuLibre/GemunuLibre-ExtraLight.ttf');
+    src: url('/fonts/GemunuLibre/GemunuLibre-Light.ttf');
+    src: url('/fonts/GemunuLibre/GemunuLibre-Medium.ttf');
+    src: url('/fonts/GemunuLibre/GemunuLibre-Regular.ttf');
+    src: url('/fonts/GemunuLibre/GemunuLibre-Semibold.ttf');
     font-display: swap;
   }
 }
