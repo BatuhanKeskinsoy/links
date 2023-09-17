@@ -9,8 +9,8 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Batuhan Keskinsoy | Links</title>
-        <meta name="description" content="Links" />
+        <title>Batuhan Keskinsoy | Bağlantılarım</title>
+        <meta name="description" content="Bağlantılarım, işlerim ve diğer bilgilerim" />
       </Head>
       <main className='relative w-[36rem] max-w-full h-[calc(100vh-73px)] max-h-screen overflow-y-auto mx-auto lg:py-10'>
         <div className="relative w-full h-full">
