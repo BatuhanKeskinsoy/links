@@ -33,7 +33,7 @@ function LinkItem(props) {
                 </div>
                 <div className='flex flex-col gap-y-0.5'>
                     <span className={`font-gemunu text-lg tracking-wider font-bold leading-5`}>{linkItem.title}</span>
-                    <span className={`font-gemunu text-sm tracking-wider opacity-70 font-bold leading-5`}>{linkItem.name}</span>
+                    <span className={`font-gemunu text-sm tracking-wider opacity-50 font-bold leading-5`}>{linkItem.name}</span>
                 </div>
             </div>
             <Link

@@ -12,16 +12,14 @@ function Home() {
         <title>Batuhan Keskinsoy | Bağlantılarım</title>
         <meta name="description" content="Bağlantılarım, işlerim ve diğer bilgilerim" />
       </Head>
-      <main className='relative w-[36rem] max-w-full h-[calc(100vh-73px)] max-h-screen overflow-y-auto mx-auto lg:py-10'>
-        <div className="relative w-full h-full">
-          <Image
-            src={'/photo/Photo.jpg'}
-            fill
-            sizes='100vw'
-            className='object-cover object-top'
-          />
-        </div>
-        <div className="absolute w-full h-full left-0 top-0 backdrop-blur-[3px]">
+      <main className='relative w-[36rem] max-w-full min-h-[calc(100vh-73px)] mx-auto lg:py-10'>
+        <Image
+          src={'/photo/Photo.jpg'}
+          fill
+          sizes='100vw'
+          className='object-cover object-top bg-fixed'
+        />
+        <div className="w-full min-h-[calc(100vh-73px)] backdrop-blur-[3px]">
           <div className="absolute w-full h-full left-0 top-0 bg-gradient-to-b from-black to-transparent -z-10"></div>
           <div className="flex w-full p-6 gap-x-4 justify-center">
             <Image
@@ -33,11 +31,11 @@ function Home() {
             <div className='flex flex-col justify-center gap-y-1 max-w-full w-full items-end text-right'>
               <h1 className='font-bold tracking-wider uppercase text-xl text-white font-gemunu'>Batuhan Keskinsoy</h1>
               <span className='tracking-widest text-lg text-gray-400 line-clamp-1 font-gemunu'>Frontend Developer</span>
-              <sm className='tracking-widest  line-clamp-1 font-gemunu text-yellow-300'>Bağlantılarım</sm>
+              <sm className='tracking-widest line-clamp-1 font-gemunu text-yellow-300'>Bağlantılarım</sm>
             </div>
           </div>
           <hr className='opacity-10' />
-          <div className="flex flex-col gap-y-5 px-6 w-full py-6 max-h-[calc(100vh-217px)] overflow-y-auto">
+          <div className="flex flex-col gap-y-5 px-6 w-full py-6">
 
             {linksData.map(linkItem => (
               <LinkItem linkItem={linkItem} key={linkItem.id} />
