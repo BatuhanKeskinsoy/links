@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "title": "Facebook",
+      "name": "BatuhanKeskinsoy",
+      "link": "https://www.facebook.com/BatuhanKeskinsoy/",
+      "order": 1,
+      "icon": "BiLogoFacebook"
+    },
+    {
+      "id": 2,
+      "title": "İnstagram",
+      "name": "batuhankeskinsoy",
+      "link": "https://www.instagram.com/batuhankeskinsoy/",
+      "order": 2,
+      "icon": "AiOutlineInstagram"
+    },
+    {
+      "id": 3,
+      "title": "Twitter",
+      "name": "Batuhankesk",
+      "link": "https://twitter.com/Batuhankesk/",
+      "order": 3,
+      "icon": "AiOutlineTwitter"
+    },
+    {
+      "id": 4,
+      "title": "Github",
+      "name": "BatuhanKeskinsoy",
+      "link": "https://github.com/BatuhanKeskinsoy/",
+      "order": 4,
+      "icon": "AiOutlineGithub"
+    },
+    {
+      "id": 5,
+      "title": "LinkedIn",
+      "name": "BatuhanKeskinsoy",
+      "link": "https://github.com/BatuhanKeskinsoy/",
+      "order": 5,
+      "icon": "BiLogoLinkedin"
+    },
+    {
+      "id": 6,
+      "title": "Behance",
+      "name": "batuhankeskinsoy",
+      "link": "https://www.behance.net/batuhankeskinsoy/",
+      "order": 6,
+      "icon": "AiOutlineBehance"
+    },
+    {
+      "id": 7,
+      "title": "Websitem",
+      "name": "batuhankeskinsoy.com",
+      "link": "https://batuhankeskinsoy.com/",
+      "order": 7,
+      "icon": "BiLink"
+    },
+    {
+      "id": 8,
+      "title": "Bionluk",
+      "name": "batuhankeskinsoy",
+      "link": "https://bionluk.com/batuhankeskinsoy/",
+      "order": 8,
+      "icon": "BiLira"
+    },
+    {
+      "id": 9,
+      "title": "Fiverr",
+      "name": "batuhankesk",
+      "link": "https://www.fiverr.com/batuhankesk/",
+      "order": 9,
+      "icon": "BiDollar"
+    }
+]
